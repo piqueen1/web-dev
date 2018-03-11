@@ -7,7 +7,7 @@
     </head>
     <body>
       <img src="http://mammothinteractive.com/wp-content/uploads/2016/11/Mammoth-Top-Logo.png"/> 
-      <h1> Mammoth<br />Bikes </h1>
+      <h1 id="header-text"> Mammoth<br />Bikes </h1>
       <div class="columns">
         <div class ="column">
           <h2> Lorem ipsum </h2>
@@ -41,5 +41,13 @@
         <p>I wonder what this will look like</p>
         <img class="image" src="http://weclipart.com/gimg/490714297FE908F6/9d5c6018d4bf99f2815feba6fb8b1352.jpg">
       </footer>
+      <script async>
+        var headerText = document.getElementById('header-text');
+        var headerColor = 'purple';
+        headerText.addEventListener('click', function(event){
+          headerColor = headerColor === 'purple' ? 'black' : 'purple';
+          headerText.style.color = headerColor;
+        })
+      </script>
   </body>
 </html>
