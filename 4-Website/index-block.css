@@ -1,0 +1,138 @@
+body{
+  background: #FF6600;
+  color: #2B2B2B;
+  font-family: "Abel", sans-serif;
+  font-size: 20px;
+}
+
+@font-face{
+  font-family: FontAwesome;
+  src:url(https://netdna.bootstrapcdn.com/font-awesome/2.0/font//fontawesome-webfont.eot?#iefix) format('eot'),
+  url(https://netdna.bootstrapcdn.com/font-awesome/2.0/font//fontawesome-webfont.woff) format('woff'),
+  url(https://netdna.bootstrapcdn.com/font-awesome/2.0/font//fontawesome-webfont.ttf) format('truetype'),
+  
+  url(https://netdna.bootstrapcdn.com/font-awesome/2.0/font//fontawesome-webfont.svg#FontAwesome) format('svg');
+}
+
+h1,h2{
+  font-family: 'Gill Sans MT';
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  color: #111111;
+  text-align: center;
+}
+
+span{
+  color: rgba(252,252,252, 1.0);
+}
+
+h2{
+  text-align: center;
+}
+
+#logo h1{
+  line-height: 150px;
+  width: 1000px auto;
+  font-size: 7em;
+}
+
+#header{
+  width: 1000px;
+  margin: 50px auto;
+  color: #2B2B2B;
+}
+
+#sixColumns{
+  overflow: hidden;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 30px 30px;
+}
+
+#sixColumns h2{
+  padding: 10px 10px 10px 10px;
+  font-size: 35px;
+  letter-spacing: -2px;
+}
+
+#sixColumns #column1{
+  float: left;
+  width: 300px;
+  margin-right: 50px;
+}
+
+#sixColumns #column2{
+  float: left;
+  width: 300px;
+}
+
+#sixColumns #column3{
+  float: right;
+  width: 300px;
+}
+
+#sixColumns #column4{
+  float: left;
+  width: 300px;
+  margin-right: 50px;
+}
+
+#sixColumns #column5{
+  float: left;
+  width: 300px;
+}
+
+#sixColumns #column6{
+  float: right;
+  width: 300px;
+}
+
+#column1 p1:before{
+  font-family: 'FontAwesome';
+  content: "\f000";
+  font-size: 150px;
+  display: block;
+  text-align: center;
+}
+
+#column2 p2:before{
+  font-family: 'FontAwesome';
+  content: "\f030";
+  font-size: 150px;
+  display: block;
+  text-align: center;
+}
+
+#column3 p3:before{
+  font-family: 'FontAwesome';
+  content: "\f024";
+  font-size: 150px;
+  display: block;
+  text-align: center;
+}
+
+#column4 p4:before{
+  font-family: 'FontAwesome';
+  content: "\f02d";
+  font-size: 150px;
+  display: block;
+  text-align: center;
+}
+
+#column5 p5:before{
+  font-family: 'FontAwesome';
+  content: "\f02f";
+  font-size: 150px;
+  display: block;
+  text-align: center;
+}
+
+#column6 p6:before{
+  font-family: 'FontAwesome';
+  content: "\f001";
+  font-size: 150px;
+  display: block;
+  text-align: center;
+}
