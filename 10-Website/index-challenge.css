@@ -1,0 +1,116 @@
+body{
+  background-image: url(https://www.publicdomainpictures.net/pictures/40000/velka/path-through-the-woods.jpg);
+  
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-size: cover;
+  
+  font-family: "Abel", sans-serif;
+  font-size: 20px;
+  color: #3B3B3B;
+}
+
+h1, h2{
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#logo h1{
+  line-height: 200px auto;
+  width: 1000px auto;
+  font-size: 10em;
+  padding: 300px 200px;
+  font-stretch: ultra-condensed;
+  letter-spacing: -2px;
+  color: #EAEAEA;
+}
+
+h2{
+  font-stretch: ultra-condensed;
+  letter-spacing: -1px;
+  padding: 40px 10px;
+  font-size: 3.5em;
+}
+
+.sectionContent{
+  width: 1000px;
+  overflow: hidden;
+  margin: 0px auto;
+  padding: 30px 30px;
+  font-size: 30px;
+  text-align: justify;
+}
+
+#section1{
+  background-color: #D7AEF3;
+}
+
+#section2{
+  background-color: #F7F680;
+}
+
+#section3{
+  background-color: #94F6F2;
+}
+
+#section4{
+  padding: 300px 0px;
+  background-image: url(https://www.publicdomainpictures.net/pictures/110000/velka/black-and-white-storm.jpg);
+}
+
+#section5{
+  background-color: #D7AEF3;
+}
+
+#section6{
+  background-color: #F7F680;
+}
+
+#section7{
+  background-color: #94F6F2;
+}
+
+#section8{
+  padding: 300px 0px;
+  background-image: url(https://www.publicdomainpictures.net/pictures/100000/velka/lesni-hribek.jpg);
+}
+
+#section9{
+  background-color: #D7AEF3;
+}
+
+#sectionContent1{
+  color: #EAEAEA;
+}
+
+#sectionContent4{
+  background-color: rgba(250,250,250, 0.5);
+}
+
+#sectionContent5{
+  color: #EAEAEA;
+}
+
+#sectionContent8{
+  background-color: rgba(250,250,250, 0.5);
+}
+
+#sectionContent9{
+  color: #EAEAEA;
+}
+
+#orangeText{
+    color:#94F6F2;
+}
+
+#navyText{
+color: #00415D;
+}
+
+#whiteText{
+color: #EAEAEA;
+}
